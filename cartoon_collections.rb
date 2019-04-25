@@ -17,16 +17,10 @@ end
 
 
 def long_planeteer_calls(arr)
-
-  arr.find do |x|
-
-  if x.length == 4
-   return false
-  else 
-   return true
-  end  
-
-  end
+  
+  array.any? do |x|
+    
+end
 end
 
 def find_the_cheese(arr)
