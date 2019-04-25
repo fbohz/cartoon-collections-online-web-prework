@@ -34,10 +34,21 @@ def find_the_cheese(arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
   counter = 0
   arr.find do |x|
+<<<<<<< HEAD
   if x == cheese_types[counter]
   x
   else
   nil
+=======
+  
+  if x == cheese_types[counter]
+  x
+  else
+    
+    nil
+    counter += 1
+
+>>>>>>> 08846dda89238f1a368f7a69173f5485b97c14dc
 end
 end
 end
