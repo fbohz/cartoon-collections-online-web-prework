@@ -18,7 +18,7 @@ end
 
 def long_planeteer_calls(arr)
   
-  array.any? do |x|
+  arr.any? do |x|
    x.length > 4 
 end
 end
